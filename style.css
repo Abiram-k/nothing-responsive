@@ -1,0 +1,29 @@
+.nav-icon{
+    margin-left: 3em;
+}
+.button {
+    background-color: #002F6C;
+    border-color: #002F6C;
+}
+::placeholder{
+    color: #fff;
+}
+.logos img{
+    width: 30px;
+    height: 30px;
+}
+@media(min-width:1200px){
+    .naav-items{
+        margin-left: 250px;
+    }
+}
+@media(min-width:1000px){
+    .naav-items{
+        margin-left: 150px;
+    }
+}
+@media(max-width:600px){
+    .logos{
+        margin-left: -40px;
+    }
+}
